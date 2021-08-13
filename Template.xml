@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="sphereii-mental">
+		<Server Name="Mod Launcher Test">
+			<Description>This is not actually a playable mod. This is a test description :)</Description>
+			
+			<!-- This is the Game Version.  This is used for the Steam Download.
+				Latest for latest stable.
+				<Version>alpha19.4</Version>
+			-->
+			<Version>Latest</Version>
+			
+			<!-- mod author. If not defined, then it uses the <Admin node -->
+			<Author>sphereii</Author>
+			<Admin>sphereii</Admin>
+			<AdminContact>support@7d2dmodlauncher.org</AdminContact>
+			
+			
+			<ReleaseNotes>https://7d2dmodlauncher.org</ReleaseNotes>
+			
+			<!-- Social Lists Optional -->
+			<Discord>https://discord.gg/H6k6gDrgNW</Discord>
+			<WebSite>https://7d2dmodlauncher.org</WebSite>
+			<Twitter>https://twitter.com/SphereII</Twitter>
+			<Donate>https://paypal.me/7d2dmodlauncher?locale.x=en_US</Donate>
+			
+			<!-- If you want to host remote release notes. If not defined, it will check Mods/Readme.txt instead. -->
+			<RemoteReleaseNotes>https://raw.githubusercontent.com/SphereII/TestRepos/main/README.md</RemoteReleaseNotes>
+			
+			<!-- Exclude these files from deployment -->
+			<Excludes>
+				<Exclude>7DaysToDieServer_Data\</Exclude>
+				<Exclude>\obj\</Exclude>
+				<Exclude>\bin\</Exclude>
+				<Exclude>\.vs\</Exclude>
+			</Excludes>
+			<Downloads>
+				<!-- With no Version, it will be used for all game versions -->
+				<Download>https://github.com/SphereII/TestRepos</Download>
+				
+				<!-- Version specifies which Alpha version it's used for. This will only be used for Alpha 19.4 -->
+				<Download Version="alpha19.4">https://github.com/SphereII/TestRepos?Branch=alpha19.4</Download>
+			</Downloads>
+		</Server>
+	</ServerGroup>
+</Servers>
