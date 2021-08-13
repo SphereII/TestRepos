@@ -26,6 +26,7 @@
 			<!-- If you want to host remote release notes. If not defined, it will check Mods/Readme.txt instead. -->
 			<RemoteReleaseNotes>https://raw.githubusercontent.com/SphereII/TestRepos/main/Mods/Readme.txt</RemoteReleaseNotes>
 			
+			
 			<!-- Exclude these files from deployment -->
 			<Excludes>
 				<Exclude>7DaysToDieServer_Data\</Exclude>
