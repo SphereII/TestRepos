@@ -30,9 +30,6 @@
 			<!-- Exclude these files from deployment -->
 			<Excludes>
 				<Exclude>7DaysToDieServer_Data\</Exclude>
-				<Exclude>\obj\</Exclude>
-				<Exclude>\bin\</Exclude>
-				<Exclude>\.vs\</Exclude>
 			</Excludes>
 			<Downloads>
 				<!-- With no Version, it will be used for all game versions -->
