@@ -36,7 +36,8 @@
 			</Excludes>
 			<Downloads>
 				<!-- With no Version, it will be used for all game versions -->
-				<Download>https://github.com/SphereII/TestRepos.git</Download>
+				<!-- Default branch is master. Add a ?Branch= if it's different. -->
+				<Download>https://github.com/SphereII/TestRepos.git?Branch=main</Download>
 				
 				<!-- Version specifies which Alpha version it's used for. This will only be used for Alpha 19.4 -->
 				<Download Version="alpha19.4">https://github.com/SphereII/TestRepos/tree/alpha19.4</Download>
