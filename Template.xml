@@ -39,7 +39,7 @@
 				<Download>https://github.com/SphereII/TestRepos</Download>
 				
 				<!-- Version specifies which Alpha version it's used for. This will only be used for Alpha 19.4 -->
-				<Download Version="alpha19.4">https://github.com/SphereII/TestRepos?Branch=alpha19.4</Download>
+				<Download Version="alpha19.4">https://github.com/SphereII/TestRepos/tree/alpha19.4</Download>
 			</Downloads>
 		</Server>
 	</ServerGroup>
