@@ -22,4 +22,3 @@ Decided to make a mod!
 <i>Bug Fixes</i>
 No fixes. It's perfect.
 
-Read more at https://7d2dmodlauncher.org
